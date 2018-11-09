@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="问题查看界面"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="6dp"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/wenti"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#EEA2AD"
+        android:hint="@string/wenti"
+        android:paddingLeft="8dp" />
+
+
+    <Button
+        android:id="@+id/wancheng"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="#FA8072"
+        android:layout_gravity="center_horizontal"
+        android:text="已解决"
+        android:textColor="@color/colorlogin_text"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/list_test"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+</LinearLayout>
